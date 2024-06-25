@@ -1,0 +1,485 @@
+{
+    "eventType": "LOAD_CREATED",
+    "id": "63a4384a-3188-419a-a4db-3e46e7fb72b7",
+    "number": "1000303119",
+    "originSystem": "OMS",
+    "correlationId": "4b7b1f84-1b22-4409b6c81KT90610441888",
+    "order": {
+        "id": "df9f739e-8b22-4417-af55-3622f851b4b3",
+        "number": "4000100978KT9022",
+        "code": "4000100978K44T906101",
+        "source": "Manual",
+        "customerId": "dd7f3b5c-c72b-4894-94dd-f01335f367d4",
+        "customerCode": "TOSLIMVS",
+        "billToCustomerId": "dd7f3b5c-c72b-4894-94dd-f01335f367d4",
+        "billToCustomerCode": "TOSLIMVS",
+        "billToCode": "be39daf9-c07e-4f98-abea-f453daacde7e",
+        "tenderFromCustomerId": "dd7f3b5c-c72b-4894-94dd-f01335f367d4",
+        "tenderFromCustomerCode": "TOSLIMVS",
+        "activationStatusTerm": "Active",
+        "financialStatusTerm": "INCOMPLETE",
+        "reasonCodeTerm": "Needs Scheduling",
+        "modeTerm": "Truck",
+        "sizeTerm": "FTL",
+        "tenderStatusTerm": "Accepted",
+        "relation": "Transact",
+        "divisionTerm": "Truckload Logistics",
+        "businessUnitTerm": "String",
+        "segmentCode": "SEG01",
+        "project": "Promo Order",
+        "projectTerm": "String",
+        "notes": "This is a MULTI-STOP/PICKUP load",
+        "invoiceNotes": "Order invoice notes",
+        "numberOfPallets": 10,
+        "scac": "OOLU",
+        "rateLineItems": [
+            {
+                "id": "08419659-c95f-4851-9760-1f80f093779e",
+                "typeTerm": "Fuel Surcharge",
+                "ratePerUnit": {
+                    "amount": 0.532,
+                    "currencyCodeTerm": "USD"
+                },
+                "units": 461,
+                "totalRate": {
+                    "amount": 245.25,
+                    "currencyCodeTerm": "USD"
+                },
+                "code": "Fuel Surcharge",
+                "currencyDiscountAmount": 10,
+                "statusTerm": "Saved",
+                "customerGlCode": "NotImplemented",
+                "isCredit": true,
+                "enteredAmounts": {
+                    "enteredRatePer": {
+                        "amount": 0.532,
+                        "currencyCodeTerm": "USD"
+                    },
+                    "enteredTotalRate": {
+                        "amount": 245.25,
+                        "currencyCodeTerm": "USD"
+                    }
+                },
+                "exchangeRate": 1,
+                "exchangeRateDate": "2023-09-26",
+                "glSegments": {
+                    "segment1": "Segment13fc1299b-89fc-47b4-9c21-21055bc9778f",
+                    "segment2": "Segment2afaaa17e-0d50-400f-a43e-fb83280b3047",
+                    "segment3": "Segment307144b22-00fb-464d-84f1-130d73273b90",
+                    "segment4": "Segment4b8173d8d-9cd7-4538-86eb-a041e7e9520c",
+                    "segment5": "Segment5824e9f55-ad99-4ae1-8fe8-a244819ce98c",
+                    "segment6": "Segment671d321a3-7856-49c7-8428-da15e9036563",
+                    "segment7": "Segment76bd04e85-d666-4c1d-b430-f45d6b92cb0f",
+                    "segment8": "Segment864fd97ae-4fb1-46e3-90ab-8dda745523da",
+                    "segment9": "Segment9fcfe7251-836b-4f11-bf28-6baca6e55171",
+                    "segment10": "Segment10321e2199-79d7-4f42-8afa-ac9901d28e78",
+                    "fullySegmentedGlAccount": "FullySegmentedGlAccount2ac9562c-a461-4041-b1e6-c28f98742551"
+                },
+                "jurisdictionTaxesTerm": "e8d9bf65-d3e9-48e0-a64e-0295be487345",
+                "createdBy": "bdff41fb-0a7f-42de-96b0-c26477753237",
+                "createdDateTime": 1695747037045,
+                "lastUpdatedBy": "bdff41fb-0a7f-42de-96b0-c26477753237",
+                "lastUpdatedDateTime": 1695747037045
+            }
+        ],
+        "cargoInsurance": {
+            "amount": 100000,
+            "currencyCodeTerm": "USD"
+        },
+        "references": [
+            {
+                "id": "df9f739e-8b22-4417-af55-3622f851b4b3",
+                "qualifierTerm": "PO Number",
+                "value": "August #1"
+            },
+            {
+                "qualifierTerm": "Shipper Reference #",
+                "value": "CDTEST8322B"
+            }
+        ],
+        "associatedReps": [],
+        "equipment": {
+            "trailerTypeTerms": [
+                "Van"
+            ],
+            "dimensions": {
+                "minimumLength": {
+                    "value": 53,
+                    "unitTerm": "ft"
+                },
+                "height": {
+                    "value": 0,
+                    "unitTerm": "ft"
+                },
+                "width": {
+                    "value": 0,
+                    "unitTerm": "ft"
+                }
+            }
+        },
+        "requirementTerms": [
+            "Escort"
+        ],
+        "commodities": [
+            {
+                "id": "36849132-2270-4ca9-838f-2d112e589d63",
+                "code": "FAK",
+                "createdBy": "2c48c46b-037d-4d0e-9dd4-eee4e9c3e73b",
+                "createdDateTime": 1695704400000,
+                "description": "Freight All Kinds",
+                "expectedPieces": 36,
+                "isHazmat": false,
+                "isTempControlled": false,
+                "lastUpdatedBy": "2c48c46b-037d-4d0e-9dd4-eee4e9c3e73b",
+                "lastUpdatedDateTime": 1695704400000,
+                "loadOnTerm": "Pallet",
+                "number": 100,
+                "packagingUnit": "Pallet",
+                "expectedWeight": {
+                    "unitTerm": "lbs",
+                    "value": 45578
+                },
+                "stops": [
+                    {
+                        "id": null,
+                        "code": "stop1"
+                    },
+                    {
+                        "id": null,
+                        "code": "stop2"
+                    }
+                ]
+            }
+        ],
+        "associatedStops": [
+            {
+                "id": null,
+                "code": "stop1"
+            },
+            {
+                "id": null,
+                "code": "stop2"
+            }
+        ],
+        "totalDistance": {
+            "unit": "mi",
+            "value": 461
+        },
+        "tarp": {
+            "typeTerm": "lumber"
+        },
+        "bracing": {
+            "typeTerms": [
+                "chains"
+            ]
+        },
+        "finalizedFuelStatus": "NA",
+        "createdBy": "0fb4fb29-14b7-4591-8b91-d14a18ee526c",
+        "createdDateTime": 1695746984050,
+        "lastUpdatedBy": "0fb4fb29-14b7-4591-8b91-d14a18ee526c",
+        "lastUpdatedDateTime": 1695747030504,
+        "paymentTerm": "collect",
+        "orderLifeCycleStatus": "Assigned"
+    },
+    "stops": [
+        {
+            "id": "c2867032-ea96-48e0-9f7f-dc351b41b5c3",
+            "code": "stop1",
+            "sequenceNumber": 0,
+            "facilityId": "f3717552-9a20-40f2-aa8a-e2d41c5d5952",
+            "facilityCode": "94GLQJX8",
+            "facilityAddresses": [
+                {
+                    "id": "aa41f5e7-4adf-4e88-a5b5-7a80fe879791",
+                    "typeTerm": "Shipping/Receiving",
+                    "street1": "14507 Frontier Rd",
+                    "street2": "unit 23",
+                    "city": "Omaha",
+                    "state": "NE",
+                    "country": "USA",
+                    "postalCode": "68138",
+                    "isMain": 1
+                }
+            ],
+            "timezone": "America/Chicago",
+            "typeTerm": "PU",
+            "loadFromTerm": "Tail Only",
+            "availableStartDateTime": 1695704400000,
+            "availableEndDateTime": 1695704400000,
+            "scheduleTypeTerm": "appt",
+            "liveDropTerm": "live",
+            "workTerm": "noTouch",
+            "notes": "String",
+            "requestedDate": null,
+            "appointmentStartDateTime": 1695704400000,
+            "appointmentEndDateTime": 1695704400000,
+            "appointmentRequestedWith": "String",
+            "appointmentRequestedConfirmWith": "String",
+            "appointmentChangeReason": {
+                "id": "76859aba-12b8-4500-b658-f1bd3d23a13f",
+                "createdDateTime": 1695747001217,
+                "changedById": "0e72f5f9-1359-4c59-98a3-8f2c4be08f4f",
+                "codeTerm": "String",
+                "customerCode": "String",
+                "mappedCodeTerm": "String",
+                "mappedCustomerCode": "String"
+            },
+            "isConfirmedAppointment": true,
+            "requirementTerms": [
+                "Lift Gate"
+            ],
+            "references": [
+                {
+                    "id": "df9f739e-8b22-4417-af55-3622f851b4b3",
+                    "qualifierTerm": "PO Number",
+                    "value": "August #1"
+                },
+                {
+                    "qualifierTerm": "Shipper Reference #",
+                    "value": "CDTEST8322B"
+                }
+            ],
+            "totalPalletCount": 5,
+            "sealNumber": "String",
+            "bolNumber": "String",
+            "isOrderStop": 1,
+            "driverTarget": {
+                "startDateTime": 1695747030510,
+                "endDateTime": 1695747030510
+            },
+            "createdBy": "0fb4fb29-14b7-4591-8b91-d14a18ee526c",
+            "createdDateTime": 1695747001213,
+            "lastUpdatedBy": "0fb4fb29-14b7-4591-8b91-d14a18ee526c",
+            "lastUpdatedDateTime": 1695747030532,
+            "location": {
+                "territory": {
+                    "city": "Omaha",
+                    "state": "NE"
+                },
+                "facility": {
+                    "id": "f3717552-9a20-40f2-aa8a-e2d41c5d5952",
+                    "code": "94GLQJX8",
+                    "name": "Werner Enterprises"
+                },
+                "address": {
+                    "typeTerm": "Shipping/Receiving",
+                    "street1": "14507 Frontier Rd",
+                    "street2": "String",
+                    "country": "USA",
+                    "postalCode": "68138",
+                    "latitude": 41.1579896,
+                    "longitude": -96.1415689,
+                    "coordinates": {
+                        "latitude": 41.1579896,
+                        "longitude": -96.1415689
+                    },
+                    "city": "Omaha",
+                    "state": "NE",
+                    "county": "USA"
+                },
+                "timezone": "America/Chicago"
+            }
+        },
+        {
+            "id": "24fe4725-23df-4fde-9d2d-f9b71a4789db",
+            "code": "stop2",
+            "sequenceNumber": 1,
+            "facilityId": "21acf909-8a67-47cf-8d75-0518eddfdf22",
+            "facilityCode": "CAROLDANKER0423",
+            "facilityAddresses": [
+                {
+                    "id": "dfdfb523-4968-4a20-8902-c965108d99d4",
+                    "typeTerm": "Remote Lot",
+                    "street1": "615 Jackson",
+                    "street2": "String",
+                    "city": "Chicago",
+                    "state": "IL",
+                    "country": "USA",
+                    "postalCode": "60661",
+                    "isMain": 0
+                },
+                {
+                    "id": "1a5aa2df-bcf8-482c-ae9f-ed26b2f526a0",
+                    "typeTerm": "Shipping",
+                    "street1": "600 W Jackson",
+                    "street2": "String",
+                    "city": "Chicago",
+                    "state": "IL",
+                    "country": "USA",
+                    "postalCode": "60661",
+                    "isMain": 1
+                },
+                {
+                    "id": "dcbfc9cb-481d-4493-9178-65f7aa17768c",
+                    "typeTerm": "Receiving",
+                    "street1": "602 W Jackson",
+                    "street2": "String",
+                    "city": "Chicago",
+                    "state": "IL",
+                    "country": "USA",
+                    "postalCode": "60661",
+                    "isMain": 0
+                }
+            ],
+            "timezone": "America/Chicago",
+            "typeTerm": "Del",
+            "unloadFromTerm": "Tail Only",
+            "availableStartDateTime": 1695819600000,
+            "availableEndDateTime": 1695819600000,
+            "scheduleTypeTerm": "appt",
+            "liveDropTerm": "dropAvail",
+            "workTerm": "noTouch",
+            "notes": "String",
+            "requestedDate": null,
+            "appointmentStartDateTime": 1695819600000,
+            "appointmentEndDateTime": 1695819600000,
+            "appointmentRequestedWith": "String",
+            "appointmentRequestedConfirmWith": "String",
+            "appointmentChangeReason": {
+                "id": "ccb66579-1a72-4087-942c-646bd6d5ba57",
+                "createdDateTime": 1695747030514,
+                "changedById": "0e72f5f9-1359-4c59-98a3-8f2c4be08f4f",
+                "codeTerm": "String",
+                "customerCode": "String",
+                "mappedCodeTerm": "String",
+                "mappedCustomerCode": "String"
+            },
+            "isConfirmedAppointment": true,
+            "requirementTerms": [
+                "Lift Gate"
+            ],
+            "references": [
+                {
+                    "qualifierTerm": "Trip #",
+                    "value": "VA500103RC-001"
+                },
+                {
+                    "qualifierTerm": "Equipment #",
+                    "value": "76261"
+                },
+                {
+                    "qualifierTerm": "Shipper Reference #",
+                    "value": "NA"
+                }
+            ],
+            "totalPalletCount": 5,
+            "sealNumber": "String",
+            "bolNumber": "String",
+            "isOrderStop": 1,
+            "driverTarget": {
+                "startDateTime": 1695747030510,
+                "endDateTime": 1695747030510
+            },
+            "createdBy": "0fb4fb29-14b7-4591-8b91-d14a18ee526c",
+            "createdDateTime": 1695747030510,
+            "lastUpdatedBy": "0fb4fb29-14b7-4591-8b91-d14a18ee526c",
+            "lastUpdatedDateTime": 1695747030532,
+            "location": {
+                "territory": {
+                    "city": "Chicago",
+                    "state": "IL"
+                },
+                "facility": {
+                    "id": "21acf909-8a67-47cf-8d75-0518eddfdf22",
+                    "code": "CAROLDANKER0423",
+                    "name": "Carol Danker Facility"
+                },
+                "address": {
+                    "typeTerm": "Shipping",
+                    "street1": "600 W Jackson",
+                    "street2": "String",
+                    "country": "USA",
+                    "postalCode": "60661",
+                    "latitude": 41.8782728,
+                    "longitude": -87.6428571,
+                    "coordinates": {
+                        "latitude": 41.8782728,
+                        "longitude": -87.6428571
+                    },
+                    "city": "Chicago",
+                    "state": "IL",
+                    "county": "USA"
+                },
+                "timezone": "America/Chicago"
+            }
+        }
+    ],
+    "routes": [
+        {
+            "id": "5d42e8b7-ad81-4e04-a59e-3f999eb2acbc",
+            "activationStatusTerm": "Active",
+            "code": "VA500103RC-00134",
+            "createdBy": "f5e44fd7-ddc2-4e0e-8328-bbed3eac5fbf",
+            "createdDateTime": 1642192011663,
+            "isHotRoute": false,
+            "lastUpdatedBy": "13f10baa-e1f4-43ad-8cd1-abc2bad0e357",
+            "lastUpdatedDateTime": 1642192011663,
+            "lifeCycleStatusTerm": "Covered",
+            "modeTerm": "Truck",
+            "number": "2000001975",
+            "oT": false,
+            "oTLineOfBusiness": "Power Only",
+            "sizeTerm": "FTL",
+            "typeTerm": "OTR",
+            "associatedStops": [
+                {
+                    "id": "cdffbfb6-88cc-467e-a1a6-621ade7116ba",
+                    "code": "VA500103RC-00134-00427"
+                },
+                {
+                    "id": "9d5f2f34-8b15-43ff-89a9-36c060c28e95",
+                    "code": "VA500103RC-00134-00428"
+                }
+            ],
+            "deadHead": {
+                "unitTerm": "mi",
+                "value": 0
+            },
+            "distance": {
+                "unitTerm": "mi",
+                "value": 140
+            },
+            "equipment": {
+                "trailerTypeTerms": [
+                    "Van"
+                ],
+                "dimensions": {
+                    "height": {
+                        "unitTerm": "ft",
+                        "value": 0
+                    },
+                    "minimumLength": {
+                        "unitTerm": "ft",
+                        "value": 0
+                    },
+                    "width": {
+                        "unitTerm": "ft",
+                        "value": 0
+                    }
+                }
+            },
+            "maxCost": {
+                "amount": 857,
+                "currencyCodeTerm": "USD"
+            },
+            "overMaxCost": {
+                "amount": 0,
+                "currencyCodeTerm": "USD"
+            },
+            "references": [
+                {
+                    "qualifierTerm": "Trip #",
+                    "value": "VA500103RC-001"
+                },
+                {
+                    "qualifierTerm": "Equipment #",
+                    "value": "76261"
+                },
+                {
+                    "qualifierTerm": "Shipper Reference #",
+                    "value": "NA"
+                }
+            ]
+        }
+    ]
+}
