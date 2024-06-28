@@ -23,7 +23,7 @@ public class ApiTests
     {
         // Step 1: Connect to Cosmos DB
         string cosmosEndpoint = "https://qa-cosmos-cus-shipment-01.documents.azure.com:443/";
-        string cosmosKey = "t2NT67coZzArf2NirDcDsTsqrBZeiPpr779YRP0UsLwis1eKSsnhp7XYA7jiQYzBDE5UBDhTR1tIrJbUc6TTIw=="; // Replace with your actual primary key
+        string cosmosKey = ""; // Replace with your actual primary key
         string databaseId = "Shipment";
         string shipmentContainerId = "Items";
         string shipmentXrefContainerId = "ShipmentXref";
